@@ -1,8 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const svgTemplate = require('./svgTemplate'); // You can create an SVG template file separately
-
-const { createLogo } = require('./logoGenerator'); // You'll need to implement this module
+const { createLogo, generateLogoAndSave } = require('.lib/shapes.js');
 
 const promptUser = async () => {
   const userInput = await inquirer.prompt([
@@ -36,10 +34,7 @@ const promptUser = async () => {
 const generateLogo = async () => {
   try {
     const userInput = await promptUser();
-    const logoSvg = createLogo(userInput); // need to implement this function
-
-    fs.writeFileSync('logo.svg', logoSvg);
-    console.log('Generated logo.svg');
+    generateLogoAndSave(userInput);
   } catch (error) {
     console.error('An error occurred:', error);
   }
