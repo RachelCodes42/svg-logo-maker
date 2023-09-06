@@ -1,6 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
-const { createLogo, generateLogoAndSave } = require('.lib/shapes.js');
+const { createLogo, generateLogoAndSave } = require('./lib/shapes.js');
 
 const promptUser = async () => {
   const userInput = await inquirer.prompt([
