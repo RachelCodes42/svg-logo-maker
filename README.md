@@ -14,11 +14,15 @@ As a freelance web developer, you often need a simple logo for your projects wit
 
 ## Installation
 <!-- Add installation instructions here -->
-1. Clone this repository to your local machine: git clone https://github.com/yourusername/logo-generator-cli.git 2. Change to the project directory: cd logo-generator-cli 3. Install the project dependencies: npm install
+1. Clone this repository to your local machine: git clone https://github.com/RachelCodes42/svg-logo-maker 
+
+2. Change to the project directory: cd logo-generator-cli 
+
+3. Install the project dependencies: npm install
 
 ## Usage
 <!-- Add usage information here -->
-To generate a logo, run the following command: npm start. Follow the on-screen prompts to enter your logo preferences: Text (up to three characters) Text color (color keyword or hexadecimal) Choose a shape (circle, triangle, square) Shape color (color keyword or hexadecimal) Once you have entered all the prompts, a file named logo.svg will be created in the project directory. You will also see the message "Generated logo.svg" in the command line.
+To generate a logo, run the following command: npm start. Follow the on-screen prompts to enter your logo preferences: Text (up to three characters), Text color (color keyword or hexadecimal), Choose a shape (circle, triangle, square), Shape color (color keyword or hexadecimal). Once you have entered all the prompts, a file named logo.svg will be created in the project directory. You will also see the message "Generated logo.svg" in the command line. Open with live server.
 
 ## License
 <!-- Add license badge and explanation here -->
